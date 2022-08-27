@@ -1,3 +1,40 @@
-.container {
-    background-color: black;
+body{
+    font-family: 'Optima', sans-serif;
+}
+
+.img-lorem{
+    width: 30%;
+}
+
+.titulo{
+    font-family: 'Optima', sans-serif;
+}
+
+.nav{
+    font-family: 'Optima', sans-serif;
+}
+
+.inicio p{
+    text-align: justify;
+    text-indent: 3.5em;
+}
+
+.nav-link{
+    color:#0A1128;
+}
+
+#logo{
+    border-radius: 5px;
+}
+
+.nav-buttons{
+    margin-top: 0.7em;
+}
+
+.nav-link:hover{
+    color:#1282A2;
+}
+
+.active:hover{
+    color:#1282A2;
 }
