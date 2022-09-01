@@ -1,5 +1,6 @@
 body{
     font-family: 'Optima', sans-serif;
+    background-image: url('img/img1.png');
 }
 
 .img-lorem{
@@ -37,4 +38,47 @@ body{
 
 .active:hover{
     color:#1282A2;
+}
+
+.candidatos{
+    text-align: center;
+    font-family: 'Optima', sans-serif;
+}
+
+.conteudo{
+    background-color: #1282A2;
+    color: white;
+    padding: 2em 2em 2em 2em;
+    margin-top: 3em;
+    margin-right: 5em;
+    border-style: double;
+    border-radius: 2em;
+    border-width: 6px;
+    border-color:#0A1128;
+    box-shadow: 0 0 2em #1282A2;
+    text-align:center;
+    align-content:center;
+    align-items:center;
+}
+
+.politicos{
+    text-align:center;
+    align-content:center;
+    align-items:center;
+}
+
+p{
+    text-align: justify;
+    padding-left: 20em;
+}
+
+/*.politicos{
+    display: flex;
+    justify-content: center;
+    justify-items: auto;
+    flex-wrap: wrap;
+}*/
+
+.veralucia {
+    margin-bottom: 5em;
 }
