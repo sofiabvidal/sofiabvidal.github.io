@@ -1,7 +1,43 @@
 body{
     font-family: 'Optima', sans-serif;
-    background-image: url('img/img1.png');
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(21, 19, 117, 0.73)), url('../img/img1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 130%;
 }
+
+p{
+    text-align: justify;
+    padding-left: 20em;
+}
+
+/*.child{
+    margin: 0 auto;
+}*/
+
+.conteudo{
+    background-color: #1282A2;
+    color: white;
+    padding: 2em 2em 2em 2em;
+    margin-top: 3em;
+    margin-right: 5em;
+    border-style: double;
+    border-radius: 2em;
+    border-width: 6px;
+    border-color:#0A1128;
+    box-shadow: 0 0 2em #1282A2;
+    text-align:center;
+    align-content:center;
+    width: 100%;
+    /*align-items:center;
+    display: flex;
+    justify-content: center;*/
+}
+
+/* 
+    Marcados no .conteudo e .child deixam as divs no centro!!!
+*/
 
 .img-lorem{
     width: 30%;
@@ -45,31 +81,16 @@ body{
     font-family: 'Optima', sans-serif;
 }
 
-.conteudo{
-    background-color: #1282A2;
-    color: white;
-    padding: 2em 2em 2em 2em;
-    margin-top: 3em;
-    margin-right: 5em;
-    border-style: double;
-    border-radius: 2em;
-    border-width: 6px;
-    border-color:#0A1128;
-    box-shadow: 0 0 2em #1282A2;
+.politicosInside{
     text-align:center;
     align-content:center;
     align-items:center;
+    margin: 0 auto;
 }
 
 .politicos{
-    text-align:center;
-    align-content:center;
-    align-items:center;
-}
-
-p{
-    text-align: justify;
-    padding-left: 20em;
+    display: flex;
+    justify-content: center;
 }
 
 /*.politicos{
