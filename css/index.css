@@ -1,6 +1,6 @@
 body{
     font-family: 'Optima', sans-serif;
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(21, 19, 117, 0.73)), url('../img/img1.PNG');
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(21, 19, 117, 0.73)), url('../img/img1.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
