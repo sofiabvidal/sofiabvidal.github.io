@@ -137,5 +137,15 @@ p, br{
     display: inline;
 }
 
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+    color: white;
+}
 
-
+.podcast{
+    align-self: center;
+    margin: 5em 5em 0 5em;
+}   
