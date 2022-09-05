@@ -1,0 +1,66 @@
+body{
+    font-family: 'Optima', sans-serif;
+    font-family: 'Optima', sans-serif;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(21, 19, 117, 0.73)), url('../img/img2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 130%;
+}
+
+figure {
+    padding-top: 1.5em;
+    width: 15em;
+	background-color: white;
+    border-bottom-left-radius: 2em;
+    border-top-right-radius: 2em;
+    margin: 1em;
+}
+
+figure figcaption {
+	padding-top: 1em;
+    padding-bottom: 1em;
+	text-align: center;
+}
+
+.painel{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-color: #023d8ae3;
+    border: solid 2px #03045E;
+    -webkit-box-shadow: 2px 2px 20px -4px rgba(2,62,138,1);
+    -moz-box-shadow: 2px 2px 20px -4px rgba(2,62,138,1);
+    box-shadow: 2px 2px 20px -4px rgba(2,62,138,1);
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    border-radius: 2em;
+}
+
+.nav-link{
+    color:#0A1128;
+}
+
+#logo{
+    border-radius: 5px;
+}
+
+.nav-buttons{
+    margin-top: 0.7em;
+}
+
+.nav-link:hover{
+    color:#1282A2;
+}
+
+.active:hover{
+    color:#1282A2;
+}
+
+.text-center{
+    margin:  auto;
+}
+
+.equipe{
+    margin: 1em;
+}
