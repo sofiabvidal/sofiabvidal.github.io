@@ -1,0 +1,141 @@
+body{
+    font-family: 'Optima', sans-serif;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(21, 19, 117, 0.73)), url('../img/img3.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 130%;
+}
+
+.img-lorem{
+    width: 30%;
+}
+
+.nav{
+    font-family: 'Optima', sans-serif;
+}
+
+.titulo{
+    font-family: 'Optima', sans-serif;
+}
+
+.inicio p{
+    text-align: justify;
+    text-indent: 3.5em;
+}
+
+#logo{
+    border-radius: 5px;
+}
+
+.nav-link{
+    color:#0A1128;
+}
+
+.nav-buttons{
+    margin-top: 0.7em;
+}
+
+.nav-link:hover{
+    color:#1282A2;
+}
+
+.active:hover{
+    color:#1282A2;
+}
+
+h1{
+    text-align: center;
+    color:#0A1128;
+    font-family: 'Optima', sans-serif;
+}
+
+.imagem{
+    height:200px;
+    border: 0;
+    border-radius:50px;
+    margin-bottom: 0.20px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.proposta{
+    background-color: #001F54;
+    color: white;
+    padding: 2em 2em 2em 2em;
+    border-radius: 0.90em; 
+    margin: 40px;
+    margin-top: 20px;
+    box-shadow: 0 0 2em #1282A2;
+}
+
+.texto{
+    text-align: justify;
+}
+
+p, br{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.container{
+    display: inline-block;
+    position: relative;
+}
+
+.container .lula{
+    position: absolute;
+    top: 10px;
+    font-size: 25px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+
+.container .soraya{
+    position: absolute;
+    top: 10px;
+    font-size: 25px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+
+.container .bolsonaro{
+    position: absolute;
+    top: 10px;
+    font-size: 25px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+
+.container .sofia {
+    position: absolute;
+    top: 10px;
+    font-size: 25px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+
+#mais{
+    display: none;
+}
+
+#pontos{
+    display: inline;
+}
+
+
+

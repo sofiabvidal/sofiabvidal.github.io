@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Optima', sans-serif;
     font-family: 'Optima', sans-serif;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(21, 19, 117, 0.73)), url('../img/img2.jpeg');
     background-repeat: no-repeat;
@@ -34,6 +34,7 @@ figure figcaption {
     align-items:center;
     display: flex;
     justify-content: center;
+    border-radius: 2em;
 }
 
 .nav-link{
