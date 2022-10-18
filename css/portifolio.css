@@ -9,18 +9,24 @@ body{
 }
 
 figure {
+    margin: 1em;
     padding-top: 1.5em;
     width: 15em;
+    height: 25em;
 	background-color: white;
     border-bottom-left-radius: 2em;
     border-top-right-radius: 2em;
-    margin: 1em;
+ 
 }
 
 figure figcaption {
 	padding-top: 1em;
     padding-bottom: 1em;
 	text-align: center;
+}
+
+.img-bottom{
+    height: 20em;
 }
 
 .painel{
